@@ -1414,7 +1414,7 @@ footer {
     height: 34px;
   }
   .foot-soc ul li a svg {
-    width: 56%;
+    height: 18px;
   }
 }
 .foot-soc ul li a:hover {
