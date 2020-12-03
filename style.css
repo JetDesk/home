@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 8px;
 }
 @media (max-width: 1530px) {
   html {
@@ -35,7 +35,7 @@ body.open-menu {
 
 @media (min-width: 1530px) {
   .container {
-    max-width: 1500px;
+    max-width: 150rem;
   }
 }
 @media (max-width: 767px) {
@@ -567,6 +567,12 @@ video {
     width: 121.1rem;
   }
 }
+@media (max-height: 730px) and (min-width: 1200px) {
+  .hero-video-big img {
+    max-height: 70vh;
+    width: auto !important;
+  }
+}
 .hero-video-big video, .hero-video-big img {
   width: 121.1rem;
   height: 64.6rem;
@@ -597,6 +603,12 @@ video {
     bottom: auto;
     top: 74px;
     right: -10px;
+  }
+}
+@media (max-height: 730px) and (min-width: 1200px) {
+  .hero-video-mob img {
+    max-height: 70vh;
+    width: auto !important;
   }
 }
 .hero-video-mob video, .hero-video-mob img {
@@ -1070,6 +1082,12 @@ video {
 #integrations {
   background: url(./images/integrations-bg.svg) center center no-repeat;
   background-size: 1722px auto;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.05);
+}
+@media (max-height: 730px) and (min-width: 1200px) {
+  #integrations {
+    background-size: cover;
+  }
 }
 @media (max-width: 991px) {
   #integrations {
@@ -1173,7 +1191,8 @@ video {
   #price {
     padding-bottom: 140px;
     margin-bottom: 0;
-    background: url(./images/free-bg-mob.jpg) center bottom no-repeat;
+    /* background: url(./images/free-bg-mob.jpg) center bottom no-repeat; */
+    background: none;
     background-size: contain;
     background-position: center bottom 86px;
   }
