@@ -1,5 +1,6 @@
 AOS.init({
     duration: 800,
+    disable: 'phone',
 });
 
 // Cache selectors
